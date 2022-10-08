@@ -4,9 +4,43 @@
 }
 body{
         background-color: black;
-        color:black ;
+        height: 400vh;
 }
-#navbar li{
-        float: left;
-        list-style: none;
+#head{
+        position: relative;
+        left : 3rem;
+        top: 1rem;
+        color: white;
+        margin-bottom: 90px;
+}
+.boxes{}
+.box{ 
+        height: 5rem;
+        width: 6rem;
+        
+}
+.one{
+        height: 5rem;
+        background-color: rgb(71, 28, 199);
+        position: relative;
+        left: 4rem;
+}
+.two{width: 6rem;
+        height: 5rem;
+        background-color: rgb(105, 194, 97);
+        position: relative;
+        left: 8rem;
+}
+.three{width: 6rem;
+        height: 5rem;
+        background-color: rgb(215, 102, 208);
+        position: relative;
+        left: 30rem;
+        top: 1rem;
+}   
+.four{width: 6rem;
+        height: 5rem;
+        background-color: rgb(60, 123, 174);
+        position: relative;
+        left: 9rem;
 }
