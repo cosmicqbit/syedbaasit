@@ -17,30 +17,31 @@ body{
 .box{ 
         height: 5rem;
         width: 6rem;
+        border-radius: 12px;
         
 }
 .one{
         height: 5rem;
-        background-color: rgb(71, 28, 199);
+        background-color: rgb(247, 246, 248);
         position: relative;
         left: 4rem;
 }
 .two{width: 6rem;
         height: 5rem;
-        background-color: rgb(105, 194, 97);
+        background-color: rgb(253, 253, 253);
         position: relative;
         left: 8rem;
 }
 .three{width: 6rem;
         height: 5rem;
-        background-color: rgb(215, 102, 208);
+        background-color: rgb(255, 255, 255);
         position: relative;
         left: 30rem;
         top: 1rem;
 }   
 .four{width: 6rem;
         height: 5rem;
-        background-color: rgb(60, 123, 174);
+        background-color: rgb(239, 239, 239);
         position: relative;
         left: 9rem;
 }
