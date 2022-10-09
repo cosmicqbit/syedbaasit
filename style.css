@@ -5,75 +5,83 @@
 body{
        
         height: 400vh;
+        background-color: rgb(49, 45, 45);
+
 }
 #head{
-        position: relative;
-        left : 3rem;
-        top: 1rem;
-        color: rgb(196, 72, 72);
-        margin-bottom: 90px;
+        color: rgb(254, 254, 254);
+        font-size: 5rem;
+        margin-bottom: 3rem;
 }
-.boxes{ 
-        padding-top: 2rem;
-     
+        .topics{
+                
+                font-size: 3.8rem;
+              margin-left: 5rem;
+              display: inline-block;
+              padding: 2rem;
+              margin-bottom: 2rem;
+        }
+        a{
+                color: rgb(224, 103, 81);
+                font-size: 3.8rem;
+                font-family: 'Times New Roman', Times, serif;
+        }
+
+        .image{
+                margin-left: 41rem;
+                clear: both;
+                margin-bottom: 4rem;
+        }
+        #About{
+
+          color: rgb(99, 204, 187);
+                font-size: 5rem;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+        padding: 3px;
+background-color: whitesmoke;}
+#Tools{color: rgb(99, 204, 187);
+        font-size: 5rem;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+padding: 3px;
+background-color: whitesmoke;
+
 }
-.box{ 
-        height: 11rem;
-        width: 11rem;
-        border-radius: 12px;
-        border: 3px solid black;
-        font-size: 29px;
-        fon
+#credit{color: rgb(99, 204, 187);
+        font-size: 5rem;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+padding: 3px;
+background-color: whitesmoke;
+
+}
+#Future{
+        color: rgb(99, 204, 187);
+        font-size: 5rem;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+padding: 3px;
+background-color: whitesmoke;
+}
+                
+.para{
+        font-size: 5rem;
+        color: white;
+        padding: 4rem;
+        margin: 1rem;
+}
+footer{
+        height: 12rem;
+        background-color:rgb(246, 246, 246);
+        margin: 3rem;
+        text-align: right;
         
 }
 a:hover{
-       color: green; 
-       padding: 1rem;
-       
-       
-       
-}
-.tools{
-       
-        background-color:  rgb(239, 239, 239);
-        position: relative;
-        left: 9rem;
-        top: -181px;
-}
-.credit{
-        background-color: rgb(239, 239, 239);
-        position: relative;
-        left: 42rem;
-        top: -22.6rem;
-}
-.future{
-        background-color:  rgb(239, 239, 239);
-        position: relative;
-        left: 26rem;
-        top: 0rem;
-}   
-.about{
-        background-color: rgb(239, 239, 239);
-        top: -34rem;
-        position: relative;
-        left:58rem
-}
-footer{
-        background-color: rgb(173, 53, 53);
-        color: rgb(17, 15, 15);
-        font-size: 2rem;
-        height: 12vh;
-}
-.bottomlink{
-        color: tomato;
-        background-color: black;
-        padding: 20px;
-        border-radius: 45px;
-        font-size: 21px;
-       
-        
-}
-.foot{
-       
-        text-align: right;
+        color: blue;
+        padding: 1rem;
+        background-color: rgb(49, 177, 147);
+        border-radius: 2rem;
+
 }
