@@ -14,6 +14,7 @@ body{
         margin-bottom: 90px;
 }
 .boxes{ 
+        padding-top: 2rem;
      
 }
 .box{ 
@@ -25,28 +26,54 @@ body{
         fon
         
 }
-.one{
+a:hover{
+       color: green; 
+       padding: 1rem;
+       
+       
+       
+}
+.tools{
        
         background-color:  rgb(239, 239, 239);
         position: relative;
         left: 9rem;
         top: -181px;
 }
-.two{
+.credit{
         background-color: rgb(239, 239, 239);
         position: relative;
         left: 42rem;
         top: -22.6rem;
 }
-.three{
+.future{
         background-color:  rgb(239, 239, 239);
         position: relative;
         left: 26rem;
         top: 0rem;
 }   
-.four{
+.about{
         background-color: rgb(239, 239, 239);
         top: -34rem;
         position: relative;
         left:58rem
+}
+footer{
+        background-color: rgb(173, 53, 53);
+        color: rgb(17, 15, 15);
+        font-size: 2rem;
+        height: 12vh;
+}
+.bottomlink{
+        color: tomato;
+        background-color: black;
+        padding: 20px;
+        border-radius: 45px;
+        font-size: 21px;
+       
+        
+}
+.foot{
+       
+        text-align: right;
 }
