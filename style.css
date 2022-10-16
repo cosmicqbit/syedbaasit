@@ -8,11 +8,18 @@ body{
         height: 400vh;
         background-color: rgb(49, 45, 45);
 
+
+}
+.nav{
+        display: flex;
+        justify-content: center;
 }
 #head{
         color: rgb(254, 254, 254);
         font-size: 50px;
         margin-bottom: 12px;
+        display: flex;
+        justify-content: center;
 }
 
         .topics{
@@ -88,3 +95,5 @@ a:hover{
 
 }
 
+
+   
