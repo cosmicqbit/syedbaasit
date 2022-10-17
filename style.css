@@ -88,7 +88,11 @@ footer{
         height: 12rem;
         background-color:rgb(246, 246, 246);
         margin: 3rem;
-        text-align: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 32px;
+       
         
 }
 a:hover{
@@ -98,6 +102,12 @@ a:hover{
         border-radius: 2rem;
 
 }
-
+.top{
+        padding: 12px 032px 12px 32px;
+        background-color: rgb(15, 60, 88);
+        border-radius: 32px;
+        color: aliceblue;
+        
+}
 
    
