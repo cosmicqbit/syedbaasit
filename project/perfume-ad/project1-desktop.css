@@ -30,7 +30,7 @@
         padding-right: 8px;
         position: relative;
       }
-      img {
+      img {float: left;
         height: 480px;
         border-radius: 16px 0 0rem 16px;
       }
@@ -92,4 +92,48 @@
         padding: 14px 8px 15px 8px;
         justify-content: center;
       }
-    
+      @media screen and (max-width:800px){
+        
+        .box{
+          display: flex;
+          flex-direction: column;
+          border-radius:14px 14px 14px 14px;
+        }
+        img{;
+          object-fit:cover;
+          border-radius:14px 14px 0 0px;
+          height: 280px;
+          
+        }
+        
+        .perfume{
+          font-size:13px ;
+        }
+        .head{
+          width: 15ch;
+          line-height: 34px;
+          font-weight: 900;
+          
+        }
+        .bodytext{
+          font-size: 14px;
+          line-height: 22px;
+          width:30ch ;
+          font-weight: 500;
+        }
+        .prices{
+          margin-top: 19px;
+          
+        }
+        .cart{
+          font-size:16px ;
+          margin-bottom: 19px;
+        }
+        .svg{
+          height: 20px;
+        }
+      
+      
+      
+      }
+        
