@@ -21,8 +21,7 @@ body{
     justify-content: center;
     align-items: center;
 gap: 25px;
-scale: 1.1;
-
+scale: 1;
 }
 
 .small{
@@ -136,7 +135,7 @@ p{display: inline-block;
 }
 
     
-@media screen and (max-width:1200px ){
+@media screen and (max-width:1000px ){
 body{
     background-image: url(images/bg-mobile.png);
     background-size: cover;
