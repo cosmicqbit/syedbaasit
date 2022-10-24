@@ -147,6 +147,7 @@ color: hsl(240, 100%, 5%);
 }
 .orangelink{
     color: black;
+    
 }
 .orangelink:hover{
     color: hsl(5, 85%, 63%);
@@ -173,6 +174,7 @@ h5{font-weight: 600;
     font-size: 23px;
     padding-bottom: 12px;
 width: 25ch;
+max-width: max-content;
 }
 .text{
     width: 24ch;
