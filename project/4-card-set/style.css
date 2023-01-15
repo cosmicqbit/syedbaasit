@@ -1,0 +1,89 @@
+*{padding: 1px;
+    /* border: solid 1px blue; */
+    
+margin: 0;
+background-color:  hsl(0, 0%, 98%);
+}
+   
+
+.top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 3rem;
+color: hsl(229, 6%, 66%);
+}
+
+ .head{width: max-content;
+    font-style: normal;
+    font-size: 2rem;
+ 
+   
+}
+.head2{width: max-content;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+    
+}
+.head3{width: max-content;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    width:55ch;
+    font-weight: 300;
+    text-align: center;
+
+
+} 
+#name {width: max-content;
+    font-size: 1.5rem;
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: .7rem;
+    color: black;
+}
+.box{width: 36ch;
+    background-color: white
+    ;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.4rem;
+    margin-top: 2REM;
+    box-shadow: 10px 10px rgb(202, 197, 197);
+    height: 11rem;
+    border-top: solid .26rem;
+ padding: 19px;
+ margin-bottom: 1rem;
+    
+}
+.table{
+    display: flex;
+    flex-direction: row;
+}
+.team{border-color:  rgb(165, 84, 84);
+    position: relative;
+    right: 10rem
+   
+}
+.calc{
+    border-color: hsl(212, 86%, 64%);
+    position: relative;
+    top: 7rem;
+    right: 8rem;
+}
+.karma{
+    border-color: hsl(34, 97%, 64%);
+    position: relative;
+    top: 15rem;
+    left:10.6rem
+}
+.supervisor{
+    
+    position: relative;
+    top: 7rem;
+    left: 8rem;
+}
+.img{
+    float: right;
+margin-top: 2rem;
+}
